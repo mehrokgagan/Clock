@@ -1,0 +1,139 @@
+.headclock{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border: 2px solid blue;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+#rbar{
+    animation-name: round;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 285px;
+    height: 2px;
+}
+@keyframes round{
+    0% {rotate: -360deg;}
+}
+#mint{
+    position: absolute;
+    animation-name: minute;
+    animation-duration: 3600s;
+    animation-timing-function: linear;
+    width: 275px;
+    height: 3px;
+    transform: rotate(-90deg);
+}
+@keyframes minute {
+    0% {rotate: -360deg;}
+}
+#hour{
+    position: absolute;
+    animation-name: hour;
+    animation-duration: 43200s;
+    animation-timing-function: linear;
+    width: 265px;
+    height: 4px;
+}
+h4{
+    position: absolute;
+    top: 150px;
+    left: 610px;
+    color: white;
+    font-size: x-large;
+}
+
+#twel{
+    position: absolute;
+    top: 80px;
+    left: 668px;
+    color: azure;
+}
+#g1{
+    position: absolute;
+    top: 105px;
+    left: 750px;
+    color: azure;
+}
+#g2{
+    position: absolute;
+    top: 155px;
+    left: 790px;
+    color: azure;
+}
+#g3{
+    position: absolute;
+    top: 220px;
+    left: 810px;
+    color: azure;
+}
+#g4{
+    position: absolute;
+    top: 290px;
+    left: 790px;
+    color: azure;
+}
+#g5{
+    position: absolute;
+    top: 340px;
+    left: 740px;
+    color: azure;
+}
+#g6{
+    position: absolute;
+    top: 355px;
+    left: 671px;
+    color: azure;
+}
+#g7{
+    position: absolute;
+    top: 345px;
+    left: 612px;
+    color: azure;
+}
+#g8{
+    position: absolute;
+    top: 295px;
+    left: 560px;
+    color: azure;
+}
+#g9{
+    position: absolute;
+    top: 224px;
+    left: 540px;
+    color: azure;
+}
+#g10{
+    position: absolute;
+    top: 154px;
+    left: 550px;
+    color: azure;
+}
+#g11{
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    color: azure;
+}
+.blank{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 666px;
+    top: 242px;
+}
+
+#btns{
+    margin: 1rem;
+    margin-left: 45%;
+}
+.btn{
+    margin-inline: 1rem;
+}
